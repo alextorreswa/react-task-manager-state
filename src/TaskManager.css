@@ -1,0 +1,77 @@
+.task-container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.task-input-section {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.task-input-section input {
+  width: 320px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.task-input-section button,
+.task-card button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1f3c88;
+  color: white;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.task-input-section button:hover,
+.task-card button:hover {
+  background-color: #162d66;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f7fb;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.task-card p {
+  margin: 0 0 6px 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.task-card span {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.empty-message {
+  color: #666;
+  font-style: italic;
+}
